@@ -76,7 +76,7 @@ class CetakController extends Controller
 
             }
         } else {
-            return redirect()->back()->with('error', 'NIK yang anda masukkan tidak terdaftar!');  
+            return redirect()->back()->with('error', 'Stambuk yang anda masukkan tidak terdaftar!');  
 
         }
         // return $pdf->stream($namafile);
