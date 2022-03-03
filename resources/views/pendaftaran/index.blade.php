@@ -257,8 +257,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <span class="wizard-number">2</span>
                                                     </div>
                                                     <div class="wizard-label mr-3">
-                                                        <h3 class="wizard-title">Sekolah Asal</h3>
-                                                        <div class="wizard-desc">Data Sekolah Asal
+                                                        <h3 class="wizard-title">Organisasi</h3>
+                                                        <div class="wizard-desc">Pengalaman Organisasi
                                                         </div>
                                                     </div>
 
@@ -294,17 +294,6 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                         <!--begin::Title-->
                                         <div class="pb-10 pb-lg-12 text-center text-md-left text-dark">
-                                            <div class="font-weight-bolder font-size-h3 ">
-                                                <p>PENTING UNTUK DIBACA</p>
-                                                <div class="font-weight-bold font-size-h6 text-dark" style="background-color:lightyellow">
-                                                    <ul>
-                                                        <li>Pendaftar adalah Mahasiswa UNIVERSITAS DIPA MAKASSAR</li>
-                                                        <li>Pendaftaran dimulai pada tanggal 8 Maret s/d 27 Maret 2022</li>
-                                                        <li>Format Foto harus berorientasi Potrait, dengan ukuran maksimum 1 mb</li>
-                                                        <li>Format Formulir dalam bentuk PDF dan ukuran Maksimal 2 mb</li>
-                                                        <li>Wajib hadir di TECHNICAL MEETING</li>
-                                                    </ul>
-                                                </div>
                                                 <a href="{{url('/')}}"
                                                     class="text-primary font-weight-bolder">Back Home</a>
                                             </div>
@@ -346,11 +335,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <label class="font-size-h6 font-weight-bolder text-dark">Agama</label>
                                                     <select name="agama" class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6">
                                                         <option value="">Select</option>
-                                                        <option value="laki-laki">Islam</option>
-                                                        <option value="Perempuan">Kristen</option>
-                                                        <option value="Perempuan">Hindu</option>
-                                                        <option value="Perempuan">Buddha</option>
-                                                        <option value="Perempuan">Konghucu</option>
+                                                        <option value="islam">Islam</option>
+                                                        <option value="kristen">Kristen</option>
+                                                        <option value="katholik">Katholik</option>
+                                                        <option value="hindu">Hindu</option>
+                                                        <option value="buddha">Buddha</option>
+                                                        <option value="konghucu">Konghucu</option>
                                                     </select>
                                             </div>
                                             <div class="col-lg-6">
@@ -426,7 +416,18 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     name="nama_ibu" placeholder="Nama Ibu" value="" />
                                             </div>
                                         </div>
-                                       
+                                        <div class="col-lg-6">
+                                            <label class="font-size-h6 font-weight-bolder text-dark">
+                                                Foto</label>
+                                            <div class="custom-file">
+
+                                                <input type="file" class="custom-file-input " name="foto"
+                                                    id="inputGroupFile02" accept="image/*">
+                                                <label class="custom-file-label" for="inputGroupFile02"
+                                                    aria-describedby="inputGroupFileAddon02">Choose file</label>
+                                            </div>
+                                            <label class="font-size-h8 text-danger">*Maksimal ukuran 2MB</label>
+                                        </div>
                                        
                                         <!--end::Form Group-->
                                     </div>
@@ -449,29 +450,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 name="organisasi" placeholder="Pengalaman Organisasi" value="" />
                                         </div>
                                        </div>
-                                        <div class="form-group row">
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Alasan</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="alasan" placeholder="Alasan" value="" />
-                                            </div>
-
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">
-                                                    Foto</label>
-                                                <div class="custom-file">
-
-                                                    <input type="file" class="custom-file-input " name="foto"
-                                                        id="inputGroupFile02" accept="image/*">
-                                                    <label class="custom-file-label" for="inputGroupFile02"
-                                                        aria-describedby="inputGroupFileAddon02">Choose file</label>
-                                                </div>
-                                                <label class="font-size-h8 text-danger">*maksimal ukuran 2MB</label>
-                                            </div>
-                                           
-                                            
+                                       <div class="form-group row">
+                                        <div class="col-lg-6">
+                                            <label class="font-size-h6 font-weight-bolder text-dark">Alasan</label>
+                                            <input type="text"
+                                                class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
+                                                name="alasan" placeholder="Alasan" value="" style="width:600px;max-width:600px" />
                                         </div>
+                                        
+                                    </div>
                                        
                                     </div>
                                     <!--end: Wizard Step 2-->
