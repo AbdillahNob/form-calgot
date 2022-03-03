@@ -16,11 +16,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <head>
     <base href="../../../" />
-    <meta charset="utf-8" />
-<<<<<<< HEAD
-=======
-    
->>>>>>> 23d8aa303971c1c0142563d3a4a44531a88e3f41
+    <meta charset="utf-8" />   
     <title>DIPANEGARA COMPUTER CLUB</title>
     <meta name="description" content="PPDB-SPTTM" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -57,6 +53,8 @@ License: You must have a valid license purchased only from themeforest(the above
       page-loading
     ">
     <!--begin::Main-->
+
+
     <div class="d-flex flex-column flex-root ">
         <!--begin::Login-->
         <div class="
@@ -67,11 +65,11 @@ License: You must have a valid license purchased only from themeforest(the above
         "
             id="kt_login">
             <!--begin::Aside-->
-            <div class="login-aside d-flex flex-column flex-row-auto  ">
+            <div class="login-aside d-flex flex-column flex-row-auto m-5">
                 <!--begin::Aside Top-->
                 <div class="d-flex flex-column-auto flex-column">
                     <!--begin::Aside header-->
-                    <img src="{{ asset('alur.png') }}" alt="" class="img-thumbnail "  />
+                    <img src="{{ asset('alur.png') }}" alt="" class="img-fluid" />
                     <!--end::Aside header-->
                 </div>
                 <!--end::Aside Top-->
@@ -98,17 +96,12 @@ License: You must have a valid license purchased only from themeforest(the above
                         <!--begin::Form-->
                         <form class="form" novalidate="novalidate" id="kt_login_signin_form">
                             <!--begin::Title-->
-                            <div class="pb-13 pt-lg-0 pt-5">
-                                <h3
-                                    class="
-                      font-weight-bolder
-                      text-dark
-                      mb-lg-25
-                      font-size-h4 font-size-h1-lg
-                    ">
+                            <div class="pb-13 pt-lg-0 pt-5 text-center ">
+                              <img src="{{ asset('logo dcc.png') }}" class="img-fluid " alt="..." width="200">
+                                <h3 class="font-weight-bolder text-dark mb-lg-25 font-size-h4 font-size-h1-lg">
                                     <div style="text-align: center">PENDAFTARAN PESERTA CALON ANGGOTA DCC XXV</div>
                                 </h3>
-                                <div class="pb-lg-0 pb-5 mb-5">
+                                <div class="pb-lg-0 pb-5 mb-5 mt-5 m-5">
                                     <a href="javascript:;"
                                         class="
                       btn  btn-lg btn-block text-light
@@ -120,7 +113,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <a href="{{ url('cetak-formulir') }}"
                                         class="
                       btn  btn-lg btn-block text-light
-                      font-weight-bolder font-size-h6
+                      font-weight-bolder font-size-h6 mt-5
                     "
                                         style="background: linear-gradient(to right, #3ab7ff, #8224e3)">Cetak Kartu
                                         Formulir</a>
@@ -214,79 +207,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="wizard wizard-6 d-flex flex-column flex-lg-row flex-column-fluid" id="kt_wizard">
                             <!--begin::Container-->
                             <div class="wizard-content d-flex flex-column">
-                                <!--begin::Nav-->
-                                <div class="d-flex flex-column-auto flex-column px-10">
-                                    <!--begin: Wizard Nav-->
-                                    <div
-                                        class="wizard-nav pb-lg-10 pb-3 d-flex flex-column align-items-center align-items-md-start">
-                                        <!--begin::Wizard Steps-->
-                                        <div class="wizard-steps d-flex flex-column flex-md-row">
-                                            <!--begin::Wizard Step 1 Nav-->
-                                            <div class="wizard-step flex-grow-1 flex-basis-0" data-wizard-type="step"
-                                                data-wizard-state="current">
-                                                <div class="wizard-wrapper ">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">1</span>
-                                                    </div>
-                                                    <div class="wizard-label mr-3">
-                                                        <h3 class="wizard-title">Data Calon Peserta</h3>
-                                                        <div class="wizard-desc">Data details</div>
-                                                    </div>
-                                                    <span class="svg-icon">
-                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
-                                                            height="24px" viewBox="0 0 24 24" version="1.1">
-                                                            <g stroke="none" stroke-width="1" fill="none"
-                                                                fill-rule="evenodd">
-                                                                <polygon points="0 0 24 0 24 24 0 24" />
-                                                                <rect fill="#000000" opacity="0.3"
-                                                                    transform="translate(8.500000, 12.000000) rotate(-90.000000) translate(-8.500000, -12.000000)"
-                                                                    x="7.5" y="7.5" width="2" height="9" rx="1" />
-                                                                <path
-                                                                    d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z"
-                                                                    fill="#000000" fill-rule="nonzero"
-                                                                    transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-                                                            </g>
-                                                        </svg>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 1 Nav-->
-                                            <!--begin::Wizard Step 2 Nav-->
-                                            <div class="wizard-step flex-grow-1 flex-basis-0" data-wizard-type="step">
-                                                <div class="wizard-wrapper pr-lg-7 pr-5">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">2</span>
-                                                    </div>
-                                                    <div class="wizard-label mr-3">
-                                                        <h3 class="wizard-title">Organisasi</h3>
-                                                        <div class="wizard-desc">Pengalaman Organisasi
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 2 Nav-->
-                                            <!--begin::Wizard Step 3 Nav-->
-                                            <div class="wizard-step flex-grow-1 flex-basis-0" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">3</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">Complete</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 3 Nav-->
-                                        </div>
-                                        <!--end::Wizard Steps-->
-                                    </div>
-                                    <!--end: Wizard Nav-->
-                                </div>
+                                
                                 <!--end::Nav-->
                                 <!--begin::Form-->
                                 <form class="px-10" novalidate="novalidate" id="kt_form" action='/pendaftaran'
@@ -297,143 +218,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                         data-wizard-state="current">
 
                                         <!--begin::Title-->
-                                        <div class="pb-10 pb-lg-12 text-center text-md-left text-dark">
-                                                <a href="{{url('/')}}"
-                                                    class="text-primary font-weight-bolder">Back Home</a>
+                                        <div class="  text-md-left text-dark">
+                                            <div class="font-weight-bolder font-size-h3 ">
+                                                <h2 class="mt-5 text-center pb-4">PENTING UNTUK DIBACA</h2>
+                                                <div class="font-weight-bold font-size-h6 text-dark" style="background-color:lightyellow">
+                                                    <ul>
+                                                        <li>Pendaftar adalah Mahasiswa UNIVERSITAS DIPA MAKASSAR</li>
+                                                        <li>Pendaftaran dimulai pada tanggal 8 Maret s/d 27 Maret 2022</li>
+                                                        <li>Format Foto harus berorientasi Potrait, dengan ukuran maksimum 1 mb</li>
+                                                        <li>Format Formulir dalam bentuk PDF dan ukuran Maksimal 2 mb</li>
+                                                        <li>Wajib hadir di TECHNICAL MEETING</li>
+                                                    </ul>
+                                                </div>
+                                                
                                             </div>
                                         </div>
                                         <!--begin::Title-->
-                                        <!--begin::Form Group-->
-                                        <!--begin::Form Group-->
-                                        <div class="form-group row">
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Stambuk</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="stambuk" placeholder="Stambuk" value="" />
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Nama Lengkap</label>
-                                                {{-- <label class="font-size-h8 text-danger">*Tidak Wajib</label> --}}
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="nama_lengkap" placeholder="Nama Lengkap" value="" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Tempat Lahir</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="tempat_lahir" placeholder="Tempat Lahir" value="" />
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Tanggal Lahir</label>
-                                                <input type="date"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="tanggal_lahir" placeholder="Tanggal Lahir" value="" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Agama</label>
-                                                    <select name="agama" class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6">
-                                                        <option value="">Select</option>
-                                                        <option value="islam">Islam</option>
-                                                        <option value="kristen">Kristen</option>
-                                                        <option value="katholik">Katholik</option>
-                                                        <option value="hindu">Hindu</option>
-                                                        <option value="buddha">Buddha</option>
-                                                        <option value="konghucu">Konghucu</option>
-                                                    </select>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">No Hp(WA)</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="no_telp" placeholder="No Hp(WA)" value="" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Jenis
-                                                    Kelamin</label>
-                                                <select name="jenis_kelamin"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6">
-                                                    <option value="">Select</option>
-                                                    <option value="laki-laki">laki-laki</option>
-                                                    <option value="Perempuan">Perempuan</option>
-                                                </select>
-                                                
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Asal</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="asal" placeholder="Asal" value="" />
-                                            </div>
-                                            
-                                            {{-- <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Jurusan
-                                                    Yang Dipilih</label>
-                                                <select name="jurusan_id"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6">
-                                                    <option value="">Select</option>
-                                                    <option value="laki-laki">TI (Teknik Informatika)</option>
-                                                    <option value="Perempuan">SI (Sistem Infomasi)</option> --}}
-                                                    {{-- @foreach ($jurusan as $val)
-
-                                                        <option value="{{ $val->id }}">{{ $val->nama }}
-                                                        </option>
-                                                    @endforeach --}}
-                                                {{-- </select>
-                                            </div> --}}
-                                        </div>
-                                        <div class="form-group row">
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Email</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="email" placeholder="Email" value="" />
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">
-                                                    Alamat Di Makassar</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="alamat" placeholder="Alamat Di Makassar" value="" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                           
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">
-                                                    Nama Ayah</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="nama_ayah" placeholder="Nama Ayah" value="" />
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <label class="font-size-h6 font-weight-bolder text-dark">Nama Ibu</label>
-                                                <input type="text"
-                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                    name="nama_ibu" placeholder="Nama Ibu" value="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <label class="font-size-h6 font-weight-bolder text-dark">
-                                                Foto</label>
-                                            <div class="custom-file">
-
-                                                <input type="file" class="custom-file-input " name="foto"
-                                                    id="inputGroupFile02" accept="image/*">
-                                                <label class="custom-file-label" for="inputGroupFile02"
-                                                    aria-describedby="inputGroupFileAddon02">Choose file</label>
-                                            </div>
-                                            <label class="font-size-h8 text-danger">*Maksimal ukuran 2MB</label>
-                                        </div>
-                                       
-                                        <!--end::Form Group-->
+                                        
                                     </div>
                                     <!--end: Wizard Step 1-->
                                     <!--begin: Wizard Step 2-->
@@ -454,15 +255,29 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 name="organisasi" placeholder="Pengalaman Organisasi" value="" />
                                         </div>
                                        </div>
-                                       <div class="form-group row">
-                                        <div class="col-lg-6">
-                                            <label class="font-size-h6 font-weight-bolder text-dark">Alasan</label>
-                                            <input type="text"
-                                                class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
-                                                name="alasan" placeholder="Alasan" value="" style="width:600px;max-width:600px" />
+                                        <div class="form-group row">
+                                            <div class="col-lg-6">
+                                                <label class="font-size-h6 font-weight-bolder text-dark">Alasan</label>
+                                                <input type="text"
+                                                    class="form-control form-control-solid h-auto p-5 border-0 rounded-lg font-size-h6"
+                                                    name="alasan" placeholder="Alasan" value="" />
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <label class="font-size-h6 font-weight-bolder text-dark">
+                                                    Foto</label>
+                                                <div class="custom-file">
+
+                                                    <input type="file" class="custom-file-input " name="foto"
+                                                        id="inputGroupFile02" accept="image/*">
+                                                    <label class="custom-file-label" for="inputGroupFile02"
+                                                        aria-describedby="inputGroupFileAddon02">Choose file</label>
+                                                </div>
+                                                <label class="font-size-h8 text-danger">*maksimal ukuran 2MB</label>
+                                            </div>
+                                           
+                                            
                                         </div>
-                                        
-                                    </div>
                                        
                                     </div>
                                     <!--end: Wizard Step 2-->
@@ -502,8 +317,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div> --}}
                                     <!--end: Wizard Step 3-->
                                     <!--begin: Wizard Actions-->
-                                    <div class="d-flex justify-content-between pt-7">
+                                    <div class="d-flex justify-content-between pt-2 mx-5">
+                                      
                                         <div class="mr-2">
+
+                                          {{-- Back home --}}
+                                          
+                                          <a href="{{url('/')}}"
+                                                    class=" btn btn-outline-primary btn-lg font-weight-bolder ">Back Home</a>
+
+                                                    
                                             <button type="button"
                                                 class="btn btn-light-primary font-weight-bolder font-size-h6 pr-8 pl-6 py-4 my-3 mr-3"
                                                 data-wizard-type="action-prev">
@@ -550,28 +373,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </svg>
                                                     <!--end::Svg Icon-->
                                                 </span></button>
-                                            <button type="button"
-                                                class="btn btn-primary font-weight-bolder font-size-h6 pl-8 pr-4 py-4 my-3"
-                                                data-wizard-type="action-next">Next
-                                                <span class="svg-icon svg-icon-md ml-2">
-                                                    <!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Right-2.svg-->
-                                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
-                                                        height="24px" viewBox="0 0 24 24" version="1.1">
-                                                        <g stroke="none" stroke-width="1" fill="none"
-                                                            fill-rule="evenodd">
-                                                            <polygon points="0 0 24 0 24 24 0 24" />
-                                                            <rect fill="#000000" opacity="0.3"
-                                                                transform="translate(8.500000, 12.000000) rotate(-90.000000) translate(-8.500000, -12.000000)"
-                                                                x="7.5" y="7.5" width="2" height="9" rx="1" />
-                                                            <path
-                                                                d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z"
-                                                                fill="#000000" fill-rule="nonzero"
-                                                                transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-                                                        </g>
-                                                    </svg>
-                                                    <!--end::Svg Icon-->
-                                                </span></button>
+
+                                                {{-- Next button --}}
+                                                
+                                                <a href="{{url('/pendaftaran')}}"
+                                                    class=" btn btn-primary btn-lg font-weight-bolder">Next</a>
+                                            
                                         </div>
                                     </div>
                                     <!--end: Wizard Actions-->
