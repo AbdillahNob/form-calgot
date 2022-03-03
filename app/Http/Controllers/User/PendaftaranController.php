@@ -22,6 +22,11 @@ class PendaftaranController extends Controller
         return view('pendaftaran.index',compact('jurusan'));
     }
 
+    // fungsi landing
+    public function landing() {
+        return view('pendaftaran.landing');
+    }
+
     public function store(Request $request)
     {
         $rules = [
