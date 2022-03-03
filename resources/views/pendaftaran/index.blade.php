@@ -17,10 +17,6 @@ License: You must have a valid license purchased only from themeforest(the above
 <head>
     <base href="../../../" />
     <meta charset="utf-8" />
-<<<<<<< HEAD
-=======
-    
->>>>>>> 23d8aa303971c1c0142563d3a4a44531a88e3f41
     <title>DIPANEGARA COMPUTER CLUB</title>
     <meta name="description" content="PPDB-SPTTM" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
