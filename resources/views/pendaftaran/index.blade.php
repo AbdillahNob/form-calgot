@@ -71,7 +71,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!--begin::Aside Top-->
                 <div class="d-flex flex-column-auto flex-column">
                     <!--begin::Aside header-->
-                    <img src="{{ asset('alur.png') }}" alt="" class="img-thumbnail "  />
+                  
                     <!--end::Aside header-->
                 </div>
                 <!--end::Aside Top-->
